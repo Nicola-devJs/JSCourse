@@ -1,15 +1,21 @@
 // 1
 const user = {
-   firstName: 'Boris',
+   name: 'Boris',
    age: 24,
 }
+user.fullName = user.name
+delete user.name
 
 console.log('#1', user)
 
 // переделайте объект таким образом, чтобы у него было 2 ключа: firstName и age
 
 // 2
-const fruitContainer = ['apple', 'pear', 'plum']
+const fruitContainer = []
+
+fruitContainer.push('apple')
+fruitContainer.push('pear')
+fruitContainer.push('plum')
 
 fruitContainer[1] = 'cherry'
 console.log('#2', fruitContainer)
