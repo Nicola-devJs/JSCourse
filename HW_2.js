@@ -13,9 +13,7 @@ console.log('#1', user)
 // 2
 const fruitContainer = []
 
-fruitContainer.push('apple')
-fruitContainer.push('pear')
-fruitContainer.push('plum')
+fruitContainer.push('apple', 'pear', 'plum')
 
 fruitContainer[1] = 'cherry'
 console.log('#2', fruitContainer)
